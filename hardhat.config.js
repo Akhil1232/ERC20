@@ -3,7 +3,6 @@ require("@nomicfoundation/hardhat-verify");
 require("dotenv").config();
 
 /** @type import('hardhat/config').HardhatUserConfig */
-const ETHERSCAN_API_KEY = vars.get("ETHERSCAN_API_KEY");
 
 module.exports = {
   solidity: "0.8.28",
@@ -15,7 +14,7 @@ module.exports = {
   },
   etherscan: {
     apiKey: {
-      sepolia: ETHERSCAN_API_KEY,
+      sepolia: process.env.ETHERSCAN_API_KEY,
     }
   }
 };
