@@ -1,0 +1,23 @@
+stages:
+  - test
+  - deploy
+
+test-job:
+  stage: test
+  image: node:20
+  script:
+    - npm install
+    - npx hardhat test
+  only:
+    - main
+
+deploy-job:
+  stage: deploy
+  image: node:20
+  script:
+    - npm install
+    - npx hardhat run scripts/deploy.js --network SepoliaTestnet
+  only:
+    - main
+  variables:
+    PRIVATE-KEY: $PRIVATE_KEY
