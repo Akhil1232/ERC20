@@ -20,4 +20,4 @@ deploy-job:
   only:
     - main
   variables:
-    PRIVATE-KEY: $PRIVATE_KEY
+    PRIVATE_KEY: $PRIVATE_KEY
