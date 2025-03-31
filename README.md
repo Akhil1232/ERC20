@@ -5,6 +5,7 @@ DEVECC20 is a custom ERC-20 token built with Solidity and deployed on the Ethere
 The token includes minting, burning, pausing/unpausing, and a staking contract where users earn a 10% reward on their staked tokens.
 
 🔹 Features
+
 DEVECC20 Token
 ✔ ERC-20 Standard
 ✔ Role-Based Access Controle with Roles: MINTER_ROLE, PAUSER_ROLE
