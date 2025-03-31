@@ -41,17 +41,17 @@ Contract Addresses:
 
 🔹 Setup & Deployment
 
-Install Dependencies
-npm install
+Install Dependencies:
+    npm install
 
-Compile Smart Contract
-npx hardhat compile
+Compile Smart Contract:
+    npx hardhat compile
 
-Deploy Smart Contract
-npx hardhat run scripts/deploy.js --network SepoliaTestnet
+Deploy Smart Contract:
+    npx hardhat run scripts/deploy.js --network SepoliaTestnet
 
-Verify Contracts on Etherscan
-npx hardhat verify --network SepoliaTestnet YOUR_CONTRACT_ADDRESS
+Verify Contracts on Etherscan:
+    npx hardhat verify --network SepoliaTestnet YOUR_CONTRACT_ADDRESS
 
 
 
