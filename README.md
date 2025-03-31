@@ -5,6 +5,7 @@ DEVECC20 is a custom ERC-20 token built with Solidity and deployed on the Ethere
 The token includes minting, burning, pausing/unpausing, and a staking contract where users earn a 10% reward on their staked tokens.
 
 🔹 Features
+
 DEVECC20 Token
 ✔ ERC-20 Standard
 ✔ Role-Based Access Controle with Roles: MINTER_ROLE, PAUSER_ROLE
@@ -40,17 +41,17 @@ Contract Addresses:
 
 🔹 Setup & Deployment
 
-Install Dependencies
-npm install
+Install Dependencies:
+    npm install
 
-Compile Smart Contract
-npx hardhat compile
+Compile Smart Contract:
+    npx hardhat compile
 
-Deploy Smart Contract
-npx hardhat run scripts/deploy.js --network SepoliaTestnet
+Deploy Smart Contract:
+    npx hardhat run scripts/deploy.js --network SepoliaTestnet
 
-Verify Contracts on Etherscan
-npx hardhat verify --network SepoliaTestnet YOUR_CONTRACT_ADDRESS
+Verify Contracts on Etherscan:
+    npx hardhat verify --network SepoliaTestnet YOUR_CONTRACT_ADDRESS
 
 
 
