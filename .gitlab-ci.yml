@@ -21,3 +21,4 @@ deploy-job:
     - main
   variables:
     PRIVATE_KEY: $PRIVATE_KEY
+    ETHERSCAN_API_KEY: $ETHERSCAN_API_KEY
